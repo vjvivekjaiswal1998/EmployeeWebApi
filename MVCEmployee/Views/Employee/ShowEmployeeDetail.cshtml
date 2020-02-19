@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Employee.DTO.EmployeeDetail>
+
+@{
+    ViewData["Title"] = "ShowEmployeeDetail";
+}
+<div>
+    <h2>ShowEmployeeDetail</h2>
+
+    <p>
+        <a asp-action="Create"> @Html.ActionLink("Create New", "AddEmployeeDetail", new { })</a>
+    </p>
+    @section featured
+        {
+        <a asp-action="Create"> @Html.ActionLink("ADD", "AddEmployeeDetail", new { })</a><br />
+        <a asp-action="Create"> @Html.ActionLink("SHOW", "ShowEmployeeDetail", new { })</a>
+    }
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployeeId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployeeNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployeeName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DOB)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Experience)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Gender)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MarriedStatus)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DepartmentId)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DOB)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Experience)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MarriedStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentId)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "UpdateEmployeeDetail", new { item.EmployeeId, item.Experience, item.MarriedStatus }) |
+                    @Html.ActionLink("Details", "GetEmployeeDetail", new { item.EmployeeId }) |
+                    @Html.ActionLink("Delete", "DeleteEmployeeDetail", new { item.EmployeeId })
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<form action="Index" method="post" enctype="multipart/form-data">
+    UploadFile<input type="file" name="files" />
+              <div class="form-group">
+                  @*<input type="submit" value="AddExcelFile" class="btn btn-default" />*@
+                  <input asp-page-handler="Upload" class="btn" type="submit" value="Upload" />
+              </div>
+</form>
+
+@section featured
+    {
+    <a asp-action="Create"> @Html.ActionLink("ADD", "AddDepartment", new { })</a><br />
+    <a asp-action="Create"> @Html.ActionLink("SHOW", "ShowDepartment", new { })</a>
+}
+
+    @*<form enctype="multipart/form-data" method="post">
+        
+        <dl>
+            <dt>
+                <label asp-for="FileUpload.FormFile"></label>
+            </dt>
+            <dd>
+                <input asp-for="FileUpload.FormFile" type="file">
+                <span asp-validation-for="FileUpload.FormFile"></span>
+            </dd>
+        </dl>
+        <input asp-page-handler="Upload" class="btn" type="submit" value="Upload" />
+    </form>*@

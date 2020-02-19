@@ -1,0 +1,9 @@
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Employee.DTO\bin\Debug\netcoreapp2.1\Employee.DTO.deps.json
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Employee.DTO\bin\Debug\netcoreapp2.1\Employee.DTO.dll
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Employee.DTO\bin\Debug\netcoreapp2.1\Employee.DTO.pdb
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Employee.DTO\obj\Debug\netcoreapp2.1\Employee.DTO.csproj.CoreCompileInputs.cache
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Employee.DTO\obj\Debug\netcoreapp2.1\Employee.DTO.AssemblyInfoInputs.cache
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Employee.DTO\obj\Debug\netcoreapp2.1\Employee.DTO.AssemblyInfo.cs
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Employee.DTO\obj\Debug\netcoreapp2.1\Employee.DTO.dll
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Employee.DTO\obj\Debug\netcoreapp2.1\Employee.DTO.pdb
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Employee.DTO\obj\Debug\netcoreapp2.1\Employee.DTO.csprojAssemblyReference.cache

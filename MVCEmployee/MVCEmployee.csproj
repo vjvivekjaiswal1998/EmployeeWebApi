@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1000" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Department.DTO\Department.DTO.csproj" />
+    <ProjectReference Include="..\Employee.BLL\Employee.BLL.csproj" />
+    <ProjectReference Include="..\Employee.DLL\Employee.DAL.csproj" />
+    <ProjectReference Include="..\Employee.DTO\Employee.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

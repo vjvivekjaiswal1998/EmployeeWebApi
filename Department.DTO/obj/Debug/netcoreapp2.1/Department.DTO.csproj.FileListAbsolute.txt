@@ -1,0 +1,9 @@
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Department.DTO\bin\Debug\netcoreapp2.1\Department.DTO.deps.json
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Department.DTO\bin\Debug\netcoreapp2.1\Department.DTO.dll
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Department.DTO\bin\Debug\netcoreapp2.1\Department.DTO.pdb
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Department.DTO\obj\Debug\netcoreapp2.1\Department.DTO.csproj.CoreCompileInputs.cache
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Department.DTO\obj\Debug\netcoreapp2.1\Department.DTO.AssemblyInfoInputs.cache
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Department.DTO\obj\Debug\netcoreapp2.1\Department.DTO.AssemblyInfo.cs
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Department.DTO\obj\Debug\netcoreapp2.1\Department.DTO.dll
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Department.DTO\obj\Debug\netcoreapp2.1\Department.DTO.pdb
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\Department.DTO\obj\Debug\netcoreapp2.1\Department.DTO.csprojAssemblyReference.cache

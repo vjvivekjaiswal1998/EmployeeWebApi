@@ -1,0 +1,65 @@
+﻿@model Employee.DTO.EmployeeDetail
+
+@{
+    ViewData["Title"] = "GetEmployeeDetail";
+}
+
+<h2>GetEmployeeDetail</h2>
+
+<div>
+    <h4>EmployeeDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EmployeeId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmployeeNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmployeeName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DOB)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DOB)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Experience)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Experience)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MarriedStatus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MarriedStatus)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
+@section featured
+    {
+    <a asp-action="Create"> @Html.ActionLink("ADD", "AddEmployeeDetail", new { })</a><br />
+    <a asp-action="Create"> @Html.ActionLink("SHOW", "ShowEmployeeDetail", new { })</a>
+}

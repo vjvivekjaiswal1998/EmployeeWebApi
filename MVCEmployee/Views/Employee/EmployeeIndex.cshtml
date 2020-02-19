@@ -1,0 +1,13 @@
+﻿@{
+        ViewData["Title"] = "Index";
+    }
+
+    <h2>Welcome Page</h2>
+
+    <h1>@ViewData["Message"]</h1>
+    <h2> @ViewBag.welcome</h2>
+@section featured
+    {
+    <a asp-action="Create"> @Html.ActionLink("ADD", "AddEmployeeDetail", new { })</a><br />
+    <a asp-action="Create"> @Html.ActionLink("SHOW", "ShowEmployeeDetail", new { })</a>
+}
